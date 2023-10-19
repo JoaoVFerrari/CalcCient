@@ -9,7 +9,7 @@ import java.text.*;
 
 public class CalcCient_FaseFinal extends JFrame implements ActionListener {
 
-	// Vari�veis de controle
+	// Variaveis de controle
 	double n1 = 0;
 	double n2 = 0;
 	String oper = "";
@@ -59,7 +59,7 @@ public class CalcCient_FaseFinal extends JFrame implements ActionListener {
 	JButton bAcos = new JButton("ArcCos");
 	JButton bAtan = new JButton("ArcTan");
 
-	// Elementos do Painel de �lgebra
+	// Elementos do Painel de algebra
 	JPanel pA = new JPanel();
 	JButton blog10 = new JButton("Log Base 10");
 	JButton blogE = new JButton("Log Base e");
@@ -86,8 +86,8 @@ public class CalcCient_FaseFinal extends JFrame implements ActionListener {
 
 		this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
 
-		// definindo os layouts dos paineis que aparecer�o no centro
-		// ..obs.: o comando abaixo deixar� um espa�o de 2 pixels entre as
+		// definindo os layouts dos paineis que aparecerao no centro
+		// ..obs.: o comando abaixo deixar um espaco de 2 pixels entre as
 		// partes
 		pN.setLayout(new GridLayout(4, 4, 2, 2));
 		pG.setLayout(new GridLayout(6, 1, 2, 2));
@@ -136,8 +136,8 @@ public class CalcCient_FaseFinal extends JFrame implements ActionListener {
 		mGeo.addActionListener(this);
 		mAlg.addActionListener(this);
 
-		// definindo o layout do painel que aparecer� no sul
-		// e..Inserindo os bot�es deste painel
+		// definindo o layout do painel que aparecer no sul
+		// e..Inserindo os botoes deste painel
 		pinf.setLayout(new GridLayout(1, 2, 2, 2));
 		pinf.add(bel);
 		pinf.add(big);
@@ -177,8 +177,8 @@ public class CalcCient_FaseFinal extends JFrame implements ActionListener {
 
 		// Configuracoes iniciais do Visor
 		visor.setFont(new Font("Arial", Font.BOLD, 18)); // ..FONTE
-		visor.setHorizontalAlignment(JTextField.RIGHT); // ..Alinhando � direita
-		visor.setEditable(false); // ..Fechado para Edi��o
+		visor.setHorizontalAlignment(JTextField.RIGHT); // ..Alinhando a direita
+		visor.setEditable(false); // ..Fechado para Edicao
 
 		// Definindo os paineis centrais de botoes
 		pc.setLayout(new CardLayout());
